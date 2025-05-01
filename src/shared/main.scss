@@ -1,0 +1,14 @@
+$primary-color: #3498db;
+$text-color: #333;
+
+body {
+  font-family: sans-serif;
+  color: $text-color;
+  margin: 0;
+  padding: 20px;
+}
+
+header h1 {
+  color: $primary-color;
+  text-align: center;
+}

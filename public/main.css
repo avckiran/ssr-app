@@ -1,0 +1,14 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/shared/main.scss ***!
+  \***************************************************************************************************************/
+body {
+  font-family: sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header h1 {
+  color: #3498db;
+  text-align: center;
+}
