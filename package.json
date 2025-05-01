@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node --require @babel/register src/server/index.js",
+    "start": "node -r @babel/register --require ./ignore-styles.js src/server/index.js",
+    "build": "webpack",
     "test": "echo \"Error: no test specified \" && exit 1"
   },
   "keywords": [],
@@ -20,6 +21,12 @@
     "@babel/preset-env": "^7.27.1",
     "@babel/preset-react": "^7.27.1",
     "@babel/register": "^7.27.1",
-    "babel-loader": "^10.0.0"
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
   }
 }
